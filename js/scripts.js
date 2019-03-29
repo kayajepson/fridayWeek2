@@ -1,31 +1,30 @@
 $(document).ready(function() {
   $("#User").submit(function(event) {
 
-    var nameInput = $("input#name").val();
-    var gender = $("input:radio[name=gender]:checked").val();
-    var hobby = $("input:radio[name=hobby]:checked").val();
+    var interest = $("input:radio[name=interest]:checked").val();
+    var time = $("input:radio[name=time]:checked").val();
+    var size = $("input:radio[name=size]:checked").val();
+    var mount = $("input:radio[name=mount]:checked").val();
 
-    if (gender === "male" && hobby === "reading") {
-      $("#f-celeb-1").show();
-    } else if (gender === "male" && hobby === "hiking") {
-      $("#f-celeb-2").show();
-    } else if (gender === "male" && hobby === "sports") {
-      $("#f-celeb-3").show();
-    } else if (gender === "female" && hobby === "reading") {
-      $("#m-celeb-1").show();
-    } else if (gender === "female" && hobby === "hiking") {
-      $("#m-celeb-2").show();
-    } else if (gender === "female" && hobby === "sports") {
-      $("#m-celeb-3").show();
+    if (interest === "front") {
+      console.log("hi");
+      $("#cssDesign").show();
     } else {
-      alert("fill in the blanks");
-      return;
-    }
 
+        if (interest === "back" && time === "many" && size === "small") {
+          $("#php").show();
+        } else if (interest === "back" && time === "many" && size === "large") {
+          $("#java").show();
+        } else if (interest === "back" && time === "few" && size === "small") {
+          $("#rubyRails").show();
+        } else if (interest === "back" && time === "few" && size === "large") {
+          $("#cSharp").show();
+        } else {
+          alert("Please fill out all questions.");
+          return;
+        }
+    }
     event.preventDefault();
   });
-
-
-
 
 });
