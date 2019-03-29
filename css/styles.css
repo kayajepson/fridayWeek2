@@ -21,9 +21,12 @@ h5 {
 }
 
 .card-img-top {
-  height: 250px;
+  height: 200px;
 }
 
-#deck1, #deck2, #deck3, #deck4 {
+#deck1, #deck2, #deck3, #deck4, #deck5 {
   display: none;
+}
+#container1 {
+  width: 75%;
 }

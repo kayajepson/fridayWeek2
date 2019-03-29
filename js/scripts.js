@@ -9,37 +9,39 @@ $(document).ready(function() {
 
     if (interest === "Front-End") {
       console.log("front");
-      $("#deck1").show();
+      // $("#deck1").show();
+      window.location.href = "test.html"
+
     } else {
           if (environment === "a CMS like Wordpress or Joomla" && time === "many" && size === "small") {
-          $("#php").show();
+          $("#deck2").show();
           console.log("php");
           } else if (environment === "a CMS like Wordpress or Joomla" && time === "many" && size === "large") {
-          $("#php").show();
+          $("#deck2").show();
           console.log("php");
           } else if (environment === "a CMS like Wordpress or Joomla" && time === "few" && size === "large") {
-            $("#php").show();
+            $("#deck2").show();
             console.log("php");
           } else if (environment === "a CMS like Wordpress or Joomla" && time === "few" && size === "small") {
-              $("#php").show();
+              $("#deck2").show();
               console.log("php");
           } else if (environment === "Android" && time === "many" && size === "large") {
-          $("#java").show();
+          $("#deck3").show();
           console.log("java");
           } else if (environment === "Android" && time === "few" && size === "large") {
-            $("#java").show();
+            $("#deck3").show();
             console.log("java");
           } else if (environment === "Android" && time === "few" && size === "small") {
-              $("#java").show();
+              $("#deck3").show();
               console.log("java");
           } else if (environment === "Android" && time === "few" && size === "small") {
-              $("#java").show();
+              $("#deck3").show();
               console.log("java");
           } else if (interest === "Back-End" && time === "few" && size === "small") {
-            $("#rubyRails").show();
+            $("#deck3").show();
             console.log("ruby");
           } else if (interest === "Back-End" && time === "few" && size === "large") {
-            $("#cSharp").show();
+            $("#deck5").show();
             console.log("csharp");
           } else {
             alert("Please fill out all questions.");
