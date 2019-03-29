@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Epicodus Tracks</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Programming Language Should I Choose?</h1>
+      <p>A guide to choosing a track at Epicodus.</p>
+
+      <form id="User">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name">
+        </div>
+        <h3>Are you interested in front end or back end development?</h3>
+        <div class="radio-1">
+          <label>
+            <input type="radio" name="interest" value="front" checked> Front-End
+          </label>
+        </div>
+        <div class="radio-1">
+          <label>
+            <input type="radio" name="interest" value="back"> Back-End
+          </label>
+        </div>
+        <h3>Do you prefer working on multiple fast paced projects or really sink your teeth into one project over a long period?</h3>
+        <div class="radio-2">
+          <label>
+            <input type="radio" name="time" value="many" checked> Multiple fast paced projects
+          </label>
+        </div>
+        <div class="radio-2">
+          <label>
+            <input type="radio" name="time" value="single"> One project
+          </label>
+        </div>
+        <h3>Would you like to work at a large established company or a small start-up?</h3>
+        <div class="radio-2">
+          <label>
+            <input type="radio" name="size" value="large" checked> Multiple fast paced projects
+          </label>
+        </div>
+        <div class="radio-2">
+          <label>
+            <input type="radio" name="size" value="small"> One project
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+
+      <div id="Celebrity">
+        <div id="m-celeb-1">
+            <h1>Mike</h1>
+            <p>Likes to read</p>
+        </div>
+        <div id="m-celeb-2">
+            <h1>James</h1>
+            <p>Likes to hike</p>
+        </div>
+        <div id="m-celeb-3">
+            <h1>Tim</h1>
+            <p>Likes to play sports</p>
+        </div>
+        <div id="f-celeb-1">
+            <h1>Sarah</h1>
+            <p>Likes to read</p>
+        </div>
+        <div id="f-celeb-2">
+            <h1>Sophie</h1>
+            <p>Likes to hike</p>
+        </div>
+        <div id="f-celeb-3">
+            <h1>Jessica</h1>
+            <p>Likes to play sports</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
