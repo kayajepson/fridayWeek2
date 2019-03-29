@@ -52,3 +52,10 @@ h3 {
 .progress-bar-success {
   background-color: #811C5B;
 }
+
+#deck1 {
+  margin-bottom: 2%;
+}
+#buttonPad {
+  margin: 2%;
+}
