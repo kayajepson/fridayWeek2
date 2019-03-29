@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     if (interest === "Front-End") {
       console.log("front");
-      $("#cssDesign").show();
+      $("#deck1").show();
     } else {
           if (environment === "a CMS like Wordpress or Joomla" && time === "many" && size === "small") {
           $("#php").show();

@@ -23,3 +23,7 @@ h5 {
 .card-img-top {
   height: 250px;
 }
+
+#deck1, #deck2, #deck3, #deck4 {
+  display: none;
+}
