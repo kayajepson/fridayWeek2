@@ -9,41 +9,46 @@ $(document).ready(function() {
     var size = $("input:radio[name=size]:checked").val();
 
     if (interest === "Front-End") {
-      window.location.href = "cssDesign.html"
+      $("#cssResults").show();
+      // window.location.href = "cssDesign.html"
 
     } else {
           if (environment === "a CMS like Wordpress or Joomla" && time === "many" && size === "small") {
-          window.location.href = "phpDrupal.html"
+          $("#phpResults").show();
+          // window.location.href = "phpDrupal.html"
           } else if (environment === "a CMS like Wordpress or Joomla" && time === "many" && size === "large") {
-          window.location.href = "phpDrupal.html"
+          $("#phpResults").show();
+          // window.location.href = "phpDrupal.html"
           } else if (environment === "a CMS like Wordpress or Joomla" && time === "few" && size === "large") {
-            window.location.href = "phpDrupal.html"
+            $("#phpResults").show();
+            // window.location.href = "phpDrupal.html"
           } else if (environment === "a CMS like Wordpress or Joomla" && time === "few" && size === "small") {
-            window.location.href = "phpDrupal.html"
+              $("#phpResults").show();
+              // window.location.href = "phpDrupal.html"
           } else if (environment === "Android" && time === "many" && size === "large") {
-          window.location.href = "javaAndroid.html"
-          console.log("java");
+            $("#javaResults").show();
+            // window.location.href = "javaAndroid.html"
           } else if (environment === "Android" && time === "few" && size === "large") {
-          window.location.href = "javaAndroid.html"
-          console.log("java");
+            $("#javaResults").show();
+            // window.location.href = "javaAndroid.html"
           } else if (environment === "Android" && time === "many" && size === "small") {
-          window.location.href = "javaAndroid.html"
-          console.log("java");
+              $("#javaResults").show();
+              // window.location.href = "javaAndroid.html"
           } else if (environment === "Android" && time === "few" && size === "small") {
-          window.location.href = "javaAndroid.html"
-          console.log("java");
+              $("#javaResults").show();
+              // window.location.href = "javaAndroid.html"
           } else if (interest === "Back-End" && time === "few" && size === "small") {
-          window.location.href = "rubyRails.html"
-          console.log("ruby");
+            $("#rubyResults").show();
+            // window.location.href = "rubyRails.html"
           } else if (interest === "Back-End" && time === "many" && size === "small") {
-          window.location.href = "rubyRails.html"
-          console.log("ruby");
+            $("#rubyResults").show();
+            // window.location.href = "rubyRails.html"
           } else if (interest === "Back-End" && time === "few" && size === "large") {
-            window.location.href = "cSharp.html"
-            console.log("csharp");
+            // window.location.href = "cSharp.html"
+            $("#cSharpResults").show();
           } else if (interest === "Back-End" && time === "many" && size === "large") {
-            window.location.href = "cSharp.html"
-            console.log("csharp");
+            // window.location.href = "cSharp.html"
+            $("#cSharpResults").show();
           } else {
             alert("Please fill out all questions.");
             console.log("error");
