@@ -28,12 +28,9 @@ h3 {
   height: 200px;
 }
 
-/* #deck1, #deck2, #deck3, #deck4, #deck5 {
-  display: none;
-} */
-#container1 {
+/* #container1 {
   width: 75%;
-}
+} */
 
 .jumbotron {
   background-image: url("../img/programming.jpeg");
@@ -62,4 +59,8 @@ h3 {
 
 #cssResults, #cSharpResults, #javaResults, #phpResults, #rubyResults {
   display: none;
+}
+
+#quiz {
+  
 }
