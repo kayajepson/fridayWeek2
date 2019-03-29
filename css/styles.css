@@ -24,9 +24,16 @@ h5 {
   height: 200px;
 }
 
-#deck1, #deck2, #deck3, #deck4, #deck5 {
+/* #deck1, #deck2, #deck3, #deck4, #deck5 {
   display: none;
-}
+} */
 #container1 {
   width: 75%;
+}
+
+.jumbotron {
+  background-image: url("../img/programming.jpeg");
+  background-color: #FFFFFF;
+  opacity: 0.85;
+
 }
