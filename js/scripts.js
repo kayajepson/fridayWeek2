@@ -1,26 +1,31 @@
 $(document).ready(function() {
   $("#User").submit(function(event) {
 
-    var interest = $("input:radio[name=interest]:checked").val();
+    // var interest = $("input:radio[name=interest]:checked").val();
+    var interest = $("#interest").val();
     var time = $("input:radio[name=time]:checked").val();
     var size = $("input:radio[name=size]:checked").val();
-    var mount = $("input:radio[name=mount]:checked").val();
 
-    if (interest === "front") {
-      console.log("hi");
+    if (interest === "Front-End") {
+      console.log("front");
       $("#cssDesign").show();
     } else {
 
-        if (interest === "back" && time === "many" && size === "small") {
+        if (interest === "Back-End" && time === "many" && size === "small") {
           $("#php").show();
-        } else if (interest === "back" && time === "many" && size === "large") {
+          console.log("php");
+        } else if (interest === "Back-End" && time === "many" && size === "large") {
           $("#java").show();
-        } else if (interest === "back" && time === "few" && size === "small") {
+          console.log("java");
+        } else if (interest === "Back-End" && time === "few" && size === "small") {
           $("#rubyRails").show();
-        } else if (interest === "back" && time === "few" && size === "large") {
+          console.log("ruby");
+        } else if (interest === "Back-End" && time === "few" && size === "large") {
           $("#cSharp").show();
+          console.log("csharp");
         } else {
           alert("Please fill out all questions.");
+          console.log("error");
           return;
         }
     }
