@@ -1,5 +1,5 @@
 # _Epicodus Track Selection_
-View live version here: https://kayajepson.github.io/fridayWeek1/
+View live version here: https://kayajepson.github.io/fridayWeek2/
 
 #### _Quiz to help choose which track to take at Epicodus, 03.29.2019_
 
