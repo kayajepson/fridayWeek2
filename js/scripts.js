@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $("#User").submit(function(event) {
 
+    var name = $('#name').val();
     var interest = $("#interest").val();
     var environment = $("#environment").val();
     var time = $("input:radio[name=time]:checked").val();
@@ -34,12 +35,6 @@ $(document).ready(function() {
           } else if (environment === "Android" && time === "few" && size === "small") {
               $("#java").show();
               console.log("java");
-          } else if (interest === "Back-End" && time === "many" && size === "small") {
-            $("#php").show();
-            console.log("java");
-          } else if (interest === "Back-End" && time === "many" && size === "large") {
-            $("#java").show();
-            console.log("java");
           } else if (interest === "Back-End" && time === "few" && size === "small") {
             $("#rubyRails").show();
             console.log("ruby");

@@ -16,8 +16,9 @@
       <form id="User">
         <div class="form-group">
           <label for="name" id="nameStyle">Name</label>
-          <input type="text" id="name">
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name">
         </div>
+
         <h5>Are you interested in front end or back end development?</h5>
         <select class="form-control" id="interest">
           <option>Front-End</option>
@@ -33,7 +34,7 @@
         <h5>Do you prefer working on multiple fast paced projects or really sink your teeth into one project over a long period?</h5>
         <div class="radio-1">
           <label>
-            <input type="radio" name="time" value="many" checked> Multiple fast paced projects
+            <input type="radio" name="time" value="many" id="radioText" checked> Multiple fast paced projects
           </label>
         </div>
         <div class="radio-1">
@@ -53,29 +54,44 @@
           </label>
         </div>
 
-        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="submit" class="btn btn-light">Submit</button>
       </form>
 
       <div id="results">
         <div id="cssDesign">
-            <h1>Mike</h1>
-            <p>Likes to read</p>
+            <!-- <h1>CSS / Design</h1>
+            <p>You are interested in front-end design! It sounds like the CSS/Design track would be a great fit for a creative person like you!</p> -->
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CSS / Design</h5>
+                <p class="card-text">You are interested in front-end design! It sounds like the CSS/Design track would be a great fit for a creative person like you!</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Front-End Design</li>
+                <li class="list-group-item">Both Large and Small Companies</li>
+                <li class="list-group-item">More Creative Freedom</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">More about this track</a>
+              </div>
+            </div>
         </div>
         <div id="php">
-            <h1>James</h1>
-            <p>Likes to hike</p>
+            <h1>PHP/Drupal</h1>
+            <p>You are interested in working with a CMS like Wordpress, Drupal, or Joomla! It sounds like the PHP/Drupal track would be a great fit for you!</p>
         </div>
         <div id="rubyRails">
-            <h1>Tim</h1>
-            <p>Likes to play sports</p>
+            <h1>Ruby/Rails</h1>
+            <p>You are interested in back-end development and having a voice at a smaller start-up! It sounds like the Ruby/Rails track would be a great fit for you!</p>
         </div>
         <div id="java">
-            <h1>Sarah</h1>
-            <p>Likes to read</p>
+            <h1>Java/Android</h1>
+            <p>You are interested in working with Android! It sounds like the Java/Android track would be a great fit for you!</p>
         </div>
         <div id="cSharp">
-            <h1>Sophie</h1>
-            <p>Likes to hike</p>
+            <h1>C#/.Net</h1>
+            <p>You are interested in back-end development and being a part of a large established company! It sounds like the C#/.Net track would be a great fit for you!</p>
         </div>
       </div>
     </div>

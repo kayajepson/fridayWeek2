@@ -1,7 +1,6 @@
 body {
-  background-color: #266352;
+  background-color: #80afa3;
 }
-
 
 #cssDesign, #php, #rubyRails, #java, #cSharp {
   display: none;
@@ -10,6 +9,7 @@ body {
 h5 {
   padding-top: 2%;
 }
+
 
 #nameStyle {
   font-weight: bold;
