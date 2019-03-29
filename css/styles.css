@@ -1,3 +1,12 @@
-#m-celeb-1, #m-celeb-2, #m-celeb-3, #f-celeb-1, #f-celeb-2, #f-celeb-3  {
+#cssDesign, #php, #rubyRails, #java, #cSharp {
   display: none;
+}
+
+h5 {
+  padding-top: 2%;
+}
+
+#nameStyle {
+  font-weight: bold;
+  font-family: inherit;
 }

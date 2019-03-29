@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
@@ -14,16 +15,22 @@
 
       <form id="User">
         <div class="form-group">
-          <label for="name">Name</label>
+          <label for="name" id="nameStyle">Name</label>
           <input type="text" id="name">
         </div>
-        <h3>Are you interested in front end or back end development?</h3>
+        <h5>Are you interested in front end or back end development?</h5>
         <select class="form-control" id="interest">
           <option>Front-End</option>
           <option>Back-End</option>
         </select>
+        <h5>Is there a specific environment you are interested in?</h5>
+        <select class="form-control" id="environment">
+          <option>a CMS like Wordpress or Joomla</option>
+          <option>Android</option>
+          <option>No preference!</option>
+        </select>
 
-        <h3>Do you prefer working on multiple fast paced projects or really sink your teeth into one project over a long period?</h3>
+        <h5>Do you prefer working on multiple fast paced projects or really sink your teeth into one project over a long period?</h5>
         <div class="radio-1">
           <label>
             <input type="radio" name="time" value="many" checked> Multiple fast paced projects
@@ -34,7 +41,7 @@
             <input type="radio" name="time" value="few"> One project
           </label>
         </div>
-        <h3>Would you like to work at a large established company or a small start-up?</h3>
+        <h5>Would you like to work at a large established company or a small start-up?</h5>
         <div class="radio-2">
           <label>
             <input type="radio" name="size" value="large" checked> Large established company
@@ -49,30 +56,26 @@
         <button type="submit" class="btn btn-success">Submit</button>
       </form>
 
-      <div id="Celebrity">
-        <div id="m-celeb-1">
+      <div id="results">
+        <div id="cssDesign">
             <h1>Mike</h1>
             <p>Likes to read</p>
         </div>
-        <div id="m-celeb-2">
+        <div id="php">
             <h1>James</h1>
             <p>Likes to hike</p>
         </div>
-        <div id="m-celeb-3">
+        <div id="rubyRails">
             <h1>Tim</h1>
             <p>Likes to play sports</p>
         </div>
-        <div id="f-celeb-1">
+        <div id="java">
             <h1>Sarah</h1>
             <p>Likes to read</p>
         </div>
-        <div id="f-celeb-2">
+        <div id="cSharp">
             <h1>Sophie</h1>
             <p>Likes to hike</p>
-        </div>
-        <div id="f-celeb-3">
-            <h1>Jessica</h1>
-            <p>Likes to play sports</p>
         </div>
       </div>
     </div>
