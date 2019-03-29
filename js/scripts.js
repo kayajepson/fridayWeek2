@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $("#User").submit(function(event) {
     var name = $('#name').val();
-    console.log(name);
     $(".firstName").append(name);
     var city = $('#city').val();
     var interest = $("#interest").val();
