@@ -10,6 +10,9 @@ h5 {
   padding-top: 2%;
 }
 
+h3 {
+  padding-top: 3%;
+}
 
 #nameStyle {
   font-weight: bold;
@@ -40,4 +43,12 @@ h5 {
   -webkit-background-size: cover;
   background-size: cover;
   padding: 5%;
+}
+
+#sliders {
+  padding-top: 5%;
+}
+
+.progress-bar-success {
+  background-color: #811C5B;
 }
