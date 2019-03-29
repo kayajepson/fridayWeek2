@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Epicodus Tracks</title>
   </head>
   <body>
-    <div class="card-deck" id="deck3">
+    <div class="jumbotron">
+      <h1 class="display-4">Which Programming Language Should I Choose?!</h1>
+      <p class="lead">A guide to choosing a track at Epicodus.</p>
+    </div>
+    <center>
+      <h3>Thanks!</h3>
+      <p>Here is the track we think would best suite you. <br>You can view descriptions of all tracks below.</p>
+    <div class="card" style="width: 25rem;" id="rubyRails">
+      <img src="img/ruby.jpeg" class="card-img-top" alt="ruby and rails">
+      <div class="card-body text-success">
+        <h5 class="card-title">Ruby/Rails</h5>
+        <p class="card-text">You are interested in back-end development and having a voice at a smaller start-up! It sounds like the Ruby/Rails track would be a great fit for you!</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item text-success">Back-End Design</li>
+        <li class="list-group-item text-success">Lots of Start-ups</li>
+        <li class="list-group-item text-success">Web Apps</li>
+      </ul>
+      <div class="card-body">
+        <a href="https://www.epicodus.com/ruby" class="card-link">More about this track</a>
+      </div>
+    </div>
+    <div class="card-deck" id="deck3" style="width:85%">
       <div class="card" style="width: 18rem;" id="cssDesign">
         <img src="img/css.jpeg" class="card-img-top" alt="css and design">
         <div class="card-body">
@@ -37,21 +59,6 @@
         </ul>
         <div class="card-body">
           <a href="https://www.epicodus.com/php" class="card-link">More about this track</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;" id="rubyRails">
-        <img src="img/ruby.jpeg" class="card-img-top" alt="ruby and rails">
-        <div class="card-body text-success">
-          <h5 class="card-title">Ruby/Rails</h5>
-          <p class="card-text">You are interested in back-end development and having a voice at a smaller start-up! It sounds like the Ruby/Rails track would be a great fit for you!</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item text-success">Back-End Design</li>
-          <li class="list-group-item text-success">Lots of Start-ups</li>
-          <li class="list-group-item text-success">Web Apps</li>
-        </ul>
-        <div class="card-body">
-          <a href="https://www.epicodus.com/ruby" class="card-link">More about this track</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;" id="java">
@@ -86,7 +93,7 @@
       </div>
     </div>
 
-    
+
 
   </body>
 </html>
