@@ -2,7 +2,7 @@ body {
   background-color: #80afa3;
 }
 
-#cssDesign, #php, #rubyRails, #java, #cSharp {
+ #php, #rubyRails, #java, #cSharp {
   display: none;
 }
 
