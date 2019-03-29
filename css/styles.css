@@ -1,3 +1,8 @@
+body {
+  background-color: #266352;
+}
+
+
 #cssDesign, #php, #rubyRails, #java, #cSharp {
   display: none;
 }
